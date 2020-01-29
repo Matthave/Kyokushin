@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Kyokushin/static/css/main.6e844020.chunk.css",
+    "main.js": "/Kyokushin/static/js/main.c2eeee78.chunk.js",
+    "main.js.map": "/Kyokushin/static/js/main.c2eeee78.chunk.js.map",
+    "runtime-main.js": "/Kyokushin/static/js/runtime-main.4a645228.js",
+    "runtime-main.js.map": "/Kyokushin/static/js/runtime-main.4a645228.js.map",
+    "static/js/2.e86cf9c3.chunk.js": "/Kyokushin/static/js/2.e86cf9c3.chunk.js",
+    "static/js/2.e86cf9c3.chunk.js.map": "/Kyokushin/static/js/2.e86cf9c3.chunk.js.map",
+    "index.html": "/Kyokushin/index.html",
+    "precache-manifest.757c33e26a73a3364ebac60a5f3d176f.js": "/Kyokushin/precache-manifest.757c33e26a73a3364ebac60a5f3d176f.js",
+    "service-worker.js": "/Kyokushin/service-worker.js",
+    "static/css/main.6e844020.chunk.css.map": "/Kyokushin/static/css/main.6e844020.chunk.css.map",
+    "static/js/2.e86cf9c3.chunk.js.LICENSE": "/Kyokushin/static/js/2.e86cf9c3.chunk.js.LICENSE",
+    "static/media/TreningiZdj6.jpg": "/Kyokushin/static/media/TreningiZdj6.98041077.jpg",
+    "static/media/App.css": "/Kyokushin/static/media/bg.20b58e7b.png",
+    "static/media/dojo.jpg": "/Kyokushin/static/media/dojo.b74426a8.jpg",
+    "static/media/Header.css": "/Kyokushin/static/media/japan.7a032878.jpg",
+    "static/media/kyo.png": "/Kyokushin/static/media/kyo.650de134.png",
+    "static/media/kyoTxt.gif": "/Kyokushin/static/media/kyoTxt.27f64bd1.gif",
+    "static/media/sosai.jpg": "/Kyokushin/static/media/sosai.4ae74e0f.jpg",
+    "static/media/symbol1.jpg": "/Kyokushin/static/media/symbol1.0d484142.jpg",
+    "static/media/symbol2.jpg": "/Kyokushin/static/media/symbol2.693a80fd.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a645228.js",
+    "static/js/2.e86cf9c3.chunk.js",
+    "static/css/main.6e844020.chunk.css",
+    "static/js/main.c2eeee78.chunk.js"
+  ]
+}
