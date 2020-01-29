@@ -1,0 +1,161 @@
+main.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: black;
+    flex-grow: 1;
+    color:white;
+}
+
+div.contactWrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: 0.3s linear;
+    margin-bottom:15px;
+    height: 100%;
+    padding: 10px 45px;
+}
+
+main.contact h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding:7px 5px;
+    background-color: white;
+    box-shadow: 0px 0px 2px 4px white;
+    border-top:2px black solid;
+    border-bottom:2px black solid;
+    color:black;
+}
+
+main .contactWrap h3{
+    margin: 5px 10px;
+    letter-spacing: 1px;
+    color:firebrick;
+}
+
+main .contactWrap div h3 {
+    margin: 5px 10px;
+    letter-spacing: 1px;
+    color:firebrick
+}
+
+main .contactWrap  h4 {
+    font-size: 14px;
+    font-weight: 100;
+    margin:5px 0px;
+}
+
+main .contactWrap .slide{
+    position: relative;
+    top:0;
+    left:0;
+    transition: 1s ease;
+    opacity: 0;
+}
+
+main .contactWrap .slide li{
+    margin:5px 0px;
+}
+
+main .contactWrap .opacity{
+    opacity: 1;
+}
+
+main .contactWrap .move{
+    left:-30%;
+}
+
+main .contactWrap .move1{
+    left:-10%;
+}
+
+main .contactWrap .move2{
+    left:12%;
+}
+
+main .contactWrap .move3{
+    left:30%;
+}    
+
+
+@media ( min-width: 500px){
+  main.contact h2{
+    font-size: 20px;
+}
+
+  main .contactWrap div h3 {
+   font-size: 20px;
+}
+
+main .contactWrap  h4 {
+    font-size: 15px;
+}
+    }
+    
+@media ( min-width: 640px){
+  main.contact h2{
+    font-size: 23px;
+}
+
+  main .contactWrap div h3 {
+   font-size: 22px;
+   margin: 10px 15px;
+}
+
+main .contactWrap h3 {
+    font-size: 22px;
+    margin: 10px 15px;
+ }
+
+main .contactWrap  h4 {
+    font-size: 16px;
+    margin: 10px 15px;
+ }
+}
+
+@media ( min-width: 850px){
+    main .contact h2{
+      font-size: 24px;
+  }
+  
+    main .contactWrap div h3 {
+     font-size: 24px;
+     margin: 10px 15px;
+  }
+
+  main .contactWrap h3 {
+    font-size: 24px;
+    margin: 10px 15px;
+ }
+  
+  main .contactWrap  h4 {
+      font-size: 18px;
+      margin: 10px 15px;
+   }
+}
+
+@media ( min-width: 1024px){
+    main .contactWrap div h3 {
+     font-size: 28px;
+     margin: 10px 15px;
+  }
+
+  main .contactWrap h3 {
+    font-size: 26px;
+    margin: 10px 15px;
+ }
+  
+  main .contactWrap  h4 {
+      font-size: 20px;
+      margin: 10px 15px;
+   }
+
+   div.contactWrap{
+    padding: 10px 5px;
+}
+
+}

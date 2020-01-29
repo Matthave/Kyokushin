@@ -1,0 +1,245 @@
+main.egzamin{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    flex-grow: 1;
+    color:white;
+}
+div.egzaminWrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.5s ease;
+}
+
+main.egzamin p{
+    font-size: 12px;
+    text-align: justify;
+    margin: 0px 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+main.egzamin h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding:7px 5px;
+    background-color: white;
+    box-shadow: 0px 0px 2px 4px white;
+    border-top:2px black solid;
+    border-bottom:2px black solid;
+    color:black;
+}
+
+main.egzamin h3{
+    font-size: 14px;
+    margin:25px 10px;
+    letter-spacing: 2px;
+}
+
+.egzamin ul.menu li {
+    width: auto;
+    list-style-type: none;
+    text-align: center;
+    font-size: 14px;
+}
+
+.egzamin ul.menu a{
+    display: block;
+    padding:10px 0px;
+    border-bottom: 2px solid black;
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+main.egzamin ul.menu li span{
+    display: block;
+    margin:0px auto;
+    width:3px;
+    height: 3px;
+    border-radius: 100%;
+    background-color: #000;
+    transition: .6s ease;
+  }
+
+div.belt{
+    color:white;
+}
+
+div.belt div{
+    width:100%;
+    padding:2px 0px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    border-top:2px solid;
+    border-bottom:2px solid;
+    margin:40px 0px 10px;
+    font-size: 18px;
+}
+
+div.belt span{
+    display: block;
+    padding:10px 0px;
+}
+
+div.egzaminWrap ul li {
+text-align: start;
+list-style: decimal;
+line-height: 18px;
+font-size: 14px;
+margin: 10px 35px;
+}
+
+
+
+div.egzaminWrap div h3 {
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+    padding:15px 5px;
+}
+
+div.kidsRequirementsOrange h3{
+    color:orange
+}
+
+div.kidsRequirementsBlue h3{
+    color:rgb(41, 91, 155)
+}
+
+div.adultsRequirementsOrange h3{
+    color:orange;
+}
+
+div.adultsRequirementsBlue h3{
+    color:rgb(41, 91, 155);
+}
+
+div.adultsRequirementsYellow h3{
+    color:yellow;
+}
+
+div.adultsRequirementsGreen h3{
+    color:green;
+}
+
+div.adultsRequirementsBrown h3{
+    color:saddlebrown;
+}
+
+div.adultsRequirementsBlack h3{
+    color:white;
+}
+
+div.kidsRequirementsOrange,
+div.adultsRequirementsBlue,
+div.adultsRequirementsYellow,
+div.adultsRequirementsGreen,
+div.adultsRequirementsBrown,
+div.adultsRequirementsBlack {
+  position: relative;
+  transition: 1s ease;
+}
+
+
+@media ( min-width: 500px){
+  main.egzamin p{
+    font-size: 14px;
+}
+
+main.egzamin h2{
+    font-size: 18px;
+}
+
+main.egzamin h3{
+    font-size: 16px;
+}
+
+.egzamin ul.menu li {
+    font-size: 16px;
+}
+
+div.belt div{
+  font-size: 20px;
+}
+
+div.egzaminWrap ul li {
+  font-size: 16px;
+line-height: 22px;
+  }
+
+}
+  @media ( min-width: 640px){
+    main.egzamin p{
+      font-size: 16px;
+  }
+  
+  main.egzamin h2{
+      font-size: 23px;
+  }
+  
+  main.egzamin h3{
+      font-size: 18px;
+  }
+  
+  .egzamin ul.menu li {
+      font-size: 18px;
+  }
+  
+  div.belt div{
+    font-size: 25px;
+  }
+  
+  div.egzaminWrap ul li {
+    font-size: 18px;
+  line-height: 24px;
+}
+  }
+
+  @media ( min-width: 850px){
+    main.egzamin p{
+      font-size: 17px;
+      line-height: 30px;
+      margin: 0px 140px;
+  }
+  
+  main.egzamin h2{
+      font-size: 24px;
+  }
+  
+  main.egzamin h3{
+      font-size: 19px;
+  }
+  
+  .egzamin ul.menu li {
+      font-size: 21px;
+  }
+  
+  div.belt div{
+    font-size: 24px;
+  }
+  
+  div.egzaminWrap ul li {
+    font-size: 21px;
+  line-height: 30px;
+  margin: 20px 150px;
+}
+  }
+
+  @media ( min-width: 1150px){
+    main.egzamin ul.menu li:hover > span{
+        width:60%;
+        background-color: #fff;
+       }
+       
+       main.egzamin ul.menu li:hover a {
+         color:firebrick
+       }
+  }
+
+

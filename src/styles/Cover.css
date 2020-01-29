@@ -1,0 +1,134 @@
+div.coverWrap{
+    position: relative;
+  }
+  
+  div.coverWrap img{
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:50px;
+    width: 100px;
+    height: 100px;
+    z-index: 1004;
+    transition: padding 0.8s ease, opacity 0.3s linear, border 0.5s linear;
+    cursor: pointer;
+    animation: imgClick 5s 1.5s linear infinite;
+    border-radius: 50%;
+  }
+
+div.coverWrap img.active{
+  padding:0px;
+}
+
+div.coverWrap img.active{
+  padding:0px;
+}
+
+  div.coverWrap img.pressed{
+    border:60px solid black;
+  }
+
+  div.coverWrap img.nonOpacity{
+      opacity: 0;
+  }
+
+  div.coverWrap img.display{
+    display: none;
+  }
+  
+  div.cover{
+  position: fixed;
+  top:-70%;
+  left:0;
+  width:130vw;
+  height:140vh ;
+  background-color:black;
+  transform: rotate(45deg);
+  z-index: 1002;
+  transition: 1s ease;
+  }
+
+  div.cover.out{
+    top:-200%;
+    border:1px solid white;
+  }
+  
+  div.cover1{
+    position: fixed;
+    bottom:-60%;
+    right:0;
+    width:130vw;
+    height:140vh ;
+    background-color:black;
+    transform: rotate(45deg);
+    z-index: 1003;
+    transition: 1s ease;
+    
+  }
+
+  div.cover1.out{
+    bottom:-200%;
+    border:1px solid white;
+}
+
+  
+  div.cover1 div:nth-child(1){
+  position:absolute;
+  width:1px;
+  height:0%;
+  top:0;
+  left:0;
+  background-color: #fff;
+  transition: 0.2s linear;
+  }
+
+  div.cover1 div:nth-child(2){
+    position:absolute;
+    width:0%;
+    height:1px;
+    top:0%;
+    left:0%;
+    background-color: #fff;
+    transition: 0.2s linear;
+    }
+  
+
+  div.cover1 div.one.active{
+      height: 100%;
+      transition: 0.7s ease;
+  }
+
+  div.cover1 div.two.active{
+    width: 100%;
+    transition: 0.5s ease;
+}
+
+  /* @keyframes imgClick{
+    0%{
+box-shadow: 0px 0px 0px 0px white;
+border:1px solid black;
+    }
+    
+   100%{
+    box-shadow: 0px 0px 5px 2px white;
+      border:1000px solid black
+   }
+  } */
+
+  @keyframes imgClick{
+    0%{
+     padding:0px;
+          }
+          
+    1%{
+          padding:10px;
+         }
+    2.5%{
+        padding:0;
+      }
+
+    100%{
+        padding:0;
+      }
+}

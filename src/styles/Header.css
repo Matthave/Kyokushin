@@ -1,0 +1,58 @@
+header{
+    position: relative;
+    width: 100%;
+    height: 30vw;
+    background-image: url('../IMG/japan.jpg');
+    background-size:contain;
+    background-position: center;
+}
+
+div.kyoLogo{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.1);
+}
+
+
+@keyframes Rotate{
+    0%{
+transform:translate(-50%,-50%) rotate(0deg); 
+
+    }
+
+    90%{
+    transform:translate(-50%,-50%) rotate(0deg);
+    }
+
+    100%{
+        transform:translate(-50%,-50%) rotate(9000deg);
+    }
+}
+
+
+@media ( min-width: 500px){
+    div.kyoLogo img{
+        width:100px;
+        height:100px;
+        }
+}
+
+@media ( min-width: 640px){
+    div.kyoLogo img{
+        width:110px;
+        height:110px;
+        }
+}  
+
+@media ( min-width: 850px){
+    div.kyoLogo img{
+        width:130px;
+        height:130px;
+        }
+
+        header{
+            height: 20vw;
+        }
+        
+}  

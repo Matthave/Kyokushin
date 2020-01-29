@@ -1,0 +1,28 @@
+
+footer{
+border-top:1px solid silver;
+background-color: #000;
+color: white;;
+padding:15px 0px;
+font-size: 12px;
+}
+
+
+@media ( min-width: 500px){
+footer{
+    font-size: 15px;
+}
+}
+
+@media ( min-width: 640px){
+    footer{
+        font-size: 17px;
+    }
+}  
+
+@media (min-width: 850px){
+    footer{
+        font-size: 21px;
+        letter-spacing: 2px;
+    }
+}
