@@ -2,10 +2,10 @@
 This application has been created using React.
 
 ## Technologies that have been used:
-React
-React Router
-Java Script
-CSS
+React,
+React Router,
+Java Script,
+CSS,
 jQuery
 
 ## What is this application?
