@@ -15,4 +15,11 @@ It has several different tabs using the react router.
 
 ## Download Repo
 If you want to download my code,
-you must clone the repository with the command git clone https://matthave.github.io/Kyokushin/
+you must clone the repository with the command git clone https://github.com/Matthave/Kyokushin
+
+## Launching the application
+After cloning the application you must use the command 
+npm install
+
+next: 
+npm start
