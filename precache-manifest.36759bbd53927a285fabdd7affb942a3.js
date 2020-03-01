@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a2e82a20211b97db0dc067d5ea1d06df",
+    "revision": "cbb8b18f75395253b50d5c46b2f99511",
     "url": "/Kyokushin/index.html"
   },
   {
-    "revision": "5ec689f100deaa3765c4",
+    "revision": "73b1441638df64b45525",
     "url": "/Kyokushin/static/css/main.6e844020.chunk.css"
   },
   {
-    "revision": "0e9f20072a706ce18a3d",
-    "url": "/Kyokushin/static/js/2.e86cf9c3.chunk.js"
+    "revision": "f3e32be6afdd767c1394",
+    "url": "/Kyokushin/static/js/2.c6470523.chunk.js"
   },
   {
     "revision": "f5ca32966347038a998bbf09dda684c7",
-    "url": "/Kyokushin/static/js/2.e86cf9c3.chunk.js.LICENSE"
+    "url": "/Kyokushin/static/js/2.c6470523.chunk.js.LICENSE"
   },
   {
-    "revision": "5ec689f100deaa3765c4",
-    "url": "/Kyokushin/static/js/main.c2eeee78.chunk.js"
+    "revision": "73b1441638df64b45525",
+    "url": "/Kyokushin/static/js/main.80baf958.chunk.js"
   },
   {
     "revision": "3c76311cb85211e83603",
