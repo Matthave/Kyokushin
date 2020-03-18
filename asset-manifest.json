@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Kyokushin/static/css/main.6e844020.chunk.css",
-    "main.js": "/Kyokushin/static/js/main.80baf958.chunk.js",
-    "main.js.map": "/Kyokushin/static/js/main.80baf958.chunk.js.map",
+    "main.css": "/Kyokushin/static/css/main.4ebb10b4.chunk.css",
+    "main.js": "/Kyokushin/static/js/main.b2f38924.chunk.js",
+    "main.js.map": "/Kyokushin/static/js/main.b2f38924.chunk.js.map",
     "runtime-main.js": "/Kyokushin/static/js/runtime-main.4a645228.js",
     "runtime-main.js.map": "/Kyokushin/static/js/runtime-main.4a645228.js.map",
     "static/js/2.c6470523.chunk.js": "/Kyokushin/static/js/2.c6470523.chunk.js",
     "static/js/2.c6470523.chunk.js.map": "/Kyokushin/static/js/2.c6470523.chunk.js.map",
     "index.html": "/Kyokushin/index.html",
-    "precache-manifest.36759bbd53927a285fabdd7affb942a3.js": "/Kyokushin/precache-manifest.36759bbd53927a285fabdd7affb942a3.js",
+    "precache-manifest.334893bc2445ee37779299306aab587f.js": "/Kyokushin/precache-manifest.334893bc2445ee37779299306aab587f.js",
     "service-worker.js": "/Kyokushin/service-worker.js",
-    "static/css/main.6e844020.chunk.css.map": "/Kyokushin/static/css/main.6e844020.chunk.css.map",
+    "static/css/main.4ebb10b4.chunk.css.map": "/Kyokushin/static/css/main.4ebb10b4.chunk.css.map",
     "static/js/2.c6470523.chunk.js.LICENSE": "/Kyokushin/static/js/2.c6470523.chunk.js.LICENSE",
     "static/media/TreningiZdj6.jpg": "/Kyokushin/static/media/TreningiZdj6.98041077.jpg",
     "static/media/App.css": "/Kyokushin/static/media/bg.20b58e7b.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.4a645228.js",
     "static/js/2.c6470523.chunk.js",
-    "static/css/main.6e844020.chunk.css",
-    "static/js/main.80baf958.chunk.js"
+    "static/css/main.4ebb10b4.chunk.css",
+    "static/js/main.b2f38924.chunk.js"
   ]
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cbb8b18f75395253b50d5c46b2f99511",
+    "revision": "d407edc18940c87c6dfb7a1e3da0952f",
     "url": "/Kyokushin/index.html"
   },
   {
-    "revision": "73b1441638df64b45525",
-    "url": "/Kyokushin/static/css/main.6e844020.chunk.css"
+    "revision": "22d233be72b550fbbb43",
+    "url": "/Kyokushin/static/css/main.4ebb10b4.chunk.css"
   },
   {
     "revision": "f3e32be6afdd767c1394",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Kyokushin/static/js/2.c6470523.chunk.js.LICENSE"
   },
   {
-    "revision": "73b1441638df64b45525",
-    "url": "/Kyokushin/static/js/main.80baf958.chunk.js"
+    "revision": "22d233be72b550fbbb43",
+    "url": "/Kyokushin/static/js/main.b2f38924.chunk.js"
   },
   {
     "revision": "3c76311cb85211e83603",
