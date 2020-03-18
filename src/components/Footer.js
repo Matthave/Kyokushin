@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer>
             <div>
-                <h4>Radomski Klub Kyokushin Karate | RKKK | Copyright 2009</h4>
+                <h4> Created: MattHave | Copyright 2019</h4>
             </div>
         </footer>
     )

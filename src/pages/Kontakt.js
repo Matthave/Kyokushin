@@ -85,33 +85,33 @@ class Kontakt extends React.Component {
       <main className='contact'>
         <h2>Kontakt</h2>
         <div style={this.state.opacity ? { opacity: '1' } : { opacity: '0' }} className="contactWrap">
-          <h3 style={this.state.opacity1 ? { opacity: '1' } : { opacity: '0' }} className='slide'>Radomska Akademia Kyokushin Karate</h3>
+          <h3 style={this.state.opacity1 ? { opacity: '1' } : { opacity: '0' }} className='slide'>Akademia Kyokushin Karate</h3>
           <div className={classes.join(' ')}>
             <h4>Dojo Operator</h4>
-            <h3>Jacek Czarnota</h3>
+            <h3>John Doe</h3>
             <h4>Instruktor Kyokushin</h4>
             <h4>Karate 2 DAN</h4>
           </div>
           <div className={classes1.join(' ')}>
             <h3>Kontakt</h3>
-            <h4>Tel. 501 134 498</h4>
-            <h4>e-mail: akademiakarate@onet.pl</h4>
+            <h4>Tel. 000 000 000</h4>
+            <h4>e-mail: johnDoe@johnDoe.com</h4>
           </div>
           <div className={classes2.join(' ')}>
-            <h3>PSP nr 17</h3>
-            <h4> ul. Czarnoleska 10</h4>
+            <h3>Lorem Ipsum nr 17</h3>
+            <h4> ul. loremIpsum 15</h4>
             <ul style={{ listStyle: 'none' }}>
-              <li>Poniedziałek 16-17</li>
-              <li>Środa 16-17</li>
-              <li>Piątek 16-17</li>
+              <li>Poniedziałek 15-18</li>
+              <li>Środa 15-18</li>
+              <li>Piątek 15-18</li>
             </ul>
           </div>
           <div className={classes3.join(' ')}>
-            <h3>PSP nr 28</h3>
-            <h4> ul. Jaracza 8</h4>
+            <h3>Lorem Ipsum nr 25</h3>
+            <h4> ul. LoremIpsum 5</h4>
             <ul style={{ listStyle: 'none' }}>
-              <li>Wtorek 17:30 - 18:30</li>
-              <li>Czwartek 16:30 - 17:30</li>
+              <li>Wtorek 15:30 - 18:30</li>
+              <li>Czwartek 15:30 - 19:30</li>
             </ul>
           </div>
         </div>

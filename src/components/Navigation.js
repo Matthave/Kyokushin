@@ -83,11 +83,11 @@ class Navigations extends React.Component {
             <ul>
               <li>
                 <img className='kyo' src={kyoImg} alt="kyo" /><NavLink className={classesNavLink.join(" ")} onClick={this.handleNavLinkClick} exact to="/">Start</NavLink></li>
-              <li><img className='kyo' src={kyoImg} alt="kyo" /><NavLink className={classesNavLink.join(" ")} onClick={this.handleNavLinkClick} to="treningi">Treningi</NavLink></li>
-              <li><img className='kyo' src={kyoImg} alt="kyo" /><NavLink className={classesNavLink.join(" ")} onClick={this.handleNavLinkClick} to="kyokushin">Kyokushin</NavLink></li>
-              <li><img className='kyo' src={kyoImg} alt="kyo" /><NavLink className={classesNavLink.join(" ")} onClick={this.handleNavLinkClick} to="egzamin">Egzamin</NavLink></li>
-              <li><img className='kyo' src={kyoImg} alt="kyo" /><NavLink className={classesNavLink.join(" ")} onClick={this.handleNavLinkClick} to="galeria">Galeria</NavLink></li>
-              <li><img className='kyo' src={kyoImg} alt="kyo" /><NavLink className={classesNavLink.join(" ")} onClick={this.handleNavLinkClick} to="kontakt">Kontakt</NavLink></li>
+              <li><img className='kyo' src={kyoImg} alt="kyo" /><NavLink className={classesNavLink.join(" ")} onClick={this.handleNavLinkClick} to="/treningi">Treningi</NavLink></li>
+              <li><img className='kyo' src={kyoImg} alt="kyo" /><NavLink className={classesNavLink.join(" ")} onClick={this.handleNavLinkClick} to="/kyokushin">Kyokushin</NavLink></li>
+              <li><img className='kyo' src={kyoImg} alt="kyo" /><NavLink className={classesNavLink.join(" ")} onClick={this.handleNavLinkClick} to="/egzamin">Egzamin</NavLink></li>
+              <li><img className='kyo' src={kyoImg} alt="kyo" /><NavLink className={classesNavLink.join(" ")} onClick={this.handleNavLinkClick} to="/galeria">Galeria</NavLink></li>
+              <li><img className='kyo' src={kyoImg} alt="kyo" /><NavLink className={classesNavLink.join(" ")} onClick={this.handleNavLinkClick} to="/kontakt">Kontakt</NavLink></li>
             </ul>
           </nav>
           <div className='arrowMenu'><i onClick={this.handleArrowMenuClick} className="fas fa-arrow-circle-up"></i></div>

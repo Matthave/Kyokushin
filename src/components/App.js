@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Route, Switch, BrowserRouter } from 'react-router-dom'
+import { Route, Switch, HashRouter } from 'react-router-dom'
 import Header from './Header'
 import Navigation from './Navigation'
 import Main from './Main'
@@ -23,14 +23,8 @@ class App extends React.Component {
   render() {
     return (
       //Ustawienia BrowserRouter by podstrony działały?
-      <BrowserRouter
+      <HashRouter
         basename="/"
-        forceRefresh={false}
-        getUserConfirmation={(message, callback) => {
-          const allowTransition = window.confirm(message);
-          callback(allowTransition);
-        }}
-        keyLength={12}
       >
         <Cover />
         <div className="App">
@@ -61,7 +55,7 @@ class App extends React.Component {
             <Footer />
           </div>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     )
   }
 }
